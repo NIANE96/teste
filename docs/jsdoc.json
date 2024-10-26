@@ -1,0 +1,20 @@
+{
+    "source": {
+      "include": ["./components", "./navigation", "./services", "./store", "./utils", "App.js"],
+      "exclude": ["./node_modules", "./coverage", "./docs", "assets"],
+    "plugins": [],
+    "templates": {
+      "cleverLinks": false,
+      "monospaceLinks": false
+    },
+    "opts": {
+      "recurse": true,
+      "destination": "./docs"
+    },
+    "tags": {
+      "allowUnknownTags": true,
+      "dictionaries": ["jsdoc"]
+    }
+  }
+}
+  
